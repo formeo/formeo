@@ -14,16 +14,31 @@
 ## 💻 Tech Stack
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Ray](https://img.shields.io/badge/-Ray-028CF0?style=flat&logo=ray&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 
 ## 📊 GitHub Activity
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=formeo&theme=radical)
+<div align="center">
+  
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=formeo&theme=react-dark&hide_border=true&area=true)](https://github.com/formeo)
 
-![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=formeo&theme=radical)
+</div>
 
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=formeo&theme=radical)
-![Commits](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=formeo&theme=radical)
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=formeo&theme=radical" alt="Profile Summary"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=formeo&theme=radical" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=formeo&theme=radical" alt="Most Commit Language"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=formeo&theme=radical" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=formeo&theme=radical" alt="Productive Time"/>
+</p>
 
 ## 🔬 Beyond Code
 - ⚛️ Quantum mechanics simulations
@@ -31,6 +46,8 @@
 - 📚 Hard sci-fi enthusiast (Stanisław Lem)
 
 ## 📫 Connect
+![Profile Views](https://komarev.com/ghpvc/?username=formeo&color=blueviolet&style=flat-square)
+
 - 💼 Open to collaborations on distributed systems
 - 💬 Ask me about: Ray optimization, Firebird internals, RabbitMQ patterns
 
