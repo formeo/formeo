@@ -1,63 +1,48 @@
 # Hi there, I'm Roman 👋
 
-**Senior Software Developer** from Tyumen, Russia  
-Building distributed systems and audio processing tools
+Senior Software Developer from Russia. Go, Python, distributed systems.
 
-## 🚀 What I Build
+Building audio processing tools → [audiotools.dev](https://audiotools.dev)
 
-**Production Systems:**
-- 🔄 Distributed calculation engines with Ray (processing 10K+ business objects)
-- 📊 High-throughput RabbitMQ message pipelines
-- 💼 Business Intelligence platforms with comprehensive monitoring
+## 🎰 Featured: iGaming Platform
 
-**Audio Processing Tools:**
-- 🎵 [music_recognition](https://github.com/formeo/music_recognition) — Bulk music identification via Shazam, auto-tagging & organizing
-- 🎧 [Audiobook-Cleaner](https://github.com/formeo/Audiobook-Cleaner) — AI-powered noise removal using MDX-Net/Roformer
-- 💿 vinyl_pipeline *(coming soon)* — Complete vinyl digitization: clean → split → recognize → organize
+Production-ready microservices for online casino/betting:
 
-**Utilities & Research:**
-- 🔧 [gobak](https://github.com/pharmacy72/gobak) — Firebird nbackup utility in Go
-- 🛠️ [FirebirdRepairBase](https://github.com/formeo/FirebirdRepairBase) — Low-level Firebird database recovery tool (Delphi)
-- ⚛️ [psi-field](https://github.com/formeo/psi-field) — Quantum mechanics thought experiments & Ψ-field simulations
+| Service | Description |
+|---------|-------------|
+| **Wallet Service** | ACID transactions, double-entry ledger, idempotent ops |
+| **Bonus Engine** | YAML-based rules DSL, wagering tracking, auto-expiration |
+| **Risk & Prediction** | ML fraud detection (<50ms), bonus abuse patterns, LTV prediction |
 
-## 🎵 Audio Tools Ecosystem
+**Stack:** Go, gRPC, PostgreSQL, Redis, RabbitMQ, ClickHouse, ONNX Runtime
+
+→ [github.com/formeo/igaming-platform](https://github.com/formeo/igaming-platform)
+
+## 🔊 Audio Tools
+
+| Project | Description |
+|---------|-------------|
+| [music_recognition](https://github.com/formeo/music_recognition) | Bulk music identification via Shazam API |
+| [Audiobook-Cleaner](https://github.com/formeo/Audiobook-Cleaner) | AI-powered noise removal using MDX-Net/Roformer |
+| [go-audio-converter](https://github.com/formeo/go-audio-converter) | Pure Go audio converter. No FFmpeg, no CGO, single binary |
+
+## 🛠 Other Projects
+
+| Project | Description |
+|---------|-------------|
+| [FirebirdRepairBase](https://github.com/formeo/FirebirdRepairBase) | Low-level Firebird database recovery tool (Delphi) |
+| [gobak](https://github.com/pharmacy72/gobak) | Firebird nbackup utility in Go |
+| [psi-field](https://github.com/formeo/psi-field) | Quantum mechanics thought experiment simulation |
+
+## 📊 Tech Stack
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     vinyl_pipeline                          │
-│         Clean → Split → Recognize → Tag → Organize          │
-├─────────────────────────┬───────────────────────────────────┤
-│   Audiobook-Cleaner     │       music_recognition           │
-│   (MDX-Net / Roformer)  │       (Shazam API)                │
-│   Noise removal         │       Track identification        │
-└─────────────────────────┴───────────────────────────────────┘
+Go        ████████████████████  production backend
+Python    ████████████████████  ML, audio, scripting  
+Delphi    ████████░░░░░░░░░░░░  legacy systems
 ```
 
-## 💻 Tech Stack
+## 📫 Links
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Delphi](https://img.shields.io/badge/-Delphi-EE1F35?style=flat&logo=delphi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Ray](https://img.shields.io/badge/-Ray-028CF0?style=flat&logo=ray&logoColor=white)
-
-## 🔬 Beyond Code
-
-- ⚛️ Quantum mechanics — Ψ-field simulations exploring Bohr's complementarity
-- 🏎️ Karting — technical setup & race planning for competitive karting
-- ✈️ Aviation — flight simulation with authentic controls, crash investigation analysis
-- 📚 Sci-fi audiobooks — "Model for Assembly" while coding
-
-## 📫 Connect
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/formeo)
-![Profile Views](https://komarev.com/ghpvc/?username=formeo&color=blueviolet&style=flat-square)
-
-- 💼 Open to collaborations on distributed systems & audio tools
-- 💬 Ask me about: Ray optimization, Firebird internals, audio processing, RabbitMQ patterns
-
----
-
-*"Every problem is just a distributed system waiting to happen"*
+- 🌐 [audiotools.dev](https://audiotools.dev)
+- 📝 [Habr](https://habr.com/ru/users/formeo/) — articles on Go, audio & ML
