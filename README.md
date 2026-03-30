@@ -1,48 +1,29 @@
-# Hi there, I'm Roman 👋
+# Hi, I'm Roman 👋
 
-Senior Software Developer from Russia. Go, Python, distributed systems.
+Senior Backend Developer. Go, Python, distributed systems.
+Building tools for audio processing and scientific computing.
 
-Building audio processing tools → [audiotools.dev](https://audiotools.dev)
+## 🔬 Scientific Open Source
 
-## 🎰 Featured: iGaming Platform
+| Project | What it does | Status |
+|---------|-------------|--------|
+| [amrl-transport](https://github.com/formeo/amrl-transport) | Hardware abstraction for STM atom manipulation. Simulator + RL-ready + distributed queue | [![PyPI](https://img.shields.io/pypi/v/amrl-transport.svg)](https://pypi.org/project/amrl-transport/) |
+| [heatrapy](https://github.com/djsilva99/heatrapy) | Contributed: numpy-vectorized 1D solvers, 1.6× speedup | [PR](https://github.com/djsilva99/heatrapy/pull/72) |
+| [psi-field](https://github.com/formeo/psi-field) | Quantum mechanics simulation — χ-space projection kernel | Experimental |
 
-Production-ready microservices for online casino/betting:
+## 🔊 Audio Tools — [audiotools.dev](https://audiotools.dev)
 
-| Service | Description |
+| Project | What it does |
 |---------|-------------|
-| **Wallet Service** | ACID transactions, double-entry ledger, idempotent ops |
-| **Bonus Engine** | YAML-based rules DSL, wagering tracking, auto-expiration |
-| **Risk & Prediction** | ML fraud detection (<50ms), bonus abuse patterns, LTV prediction |
+| [music_recognition](https://github.com/formeo/music_recognition) | Bulk music ID via Shazam API — identify unknown MP3s at scale |
+| [Audiobook-Cleaner](https://github.com/formeo/Audiobook-Cleaner) | AI noise removal (MDX-Net/Roformer) for audiobooks |
+| [go-audio-converter](https://github.com/formeo/go-audio-converter) | Pure Go audio converter with custom FLAC encoder. No FFmpeg. |
 
-**Stack:** Go, gRPC, PostgreSQL, Redis, RabbitMQ, ClickHouse, ONNX Runtime
+## 🛠 Infrastructure
 
-→ [github.com/formeo/igaming-platform](https://github.com/formeo/igaming-platform)
-
-## 🔊 Audio Tools
-
-| Project | Description |
+| Project | What it does |
 |---------|-------------|
-| [music_recognition](https://github.com/formeo/music_recognition) | Bulk music identification via Shazam API |
-| [Audiobook-Cleaner](https://github.com/formeo/Audiobook-Cleaner) | AI-powered noise removal using MDX-Net/Roformer |
-| [go-audio-converter](https://github.com/formeo/go-audio-converter) | Pure Go audio converter. No FFmpeg, no CGO, single binary |
+| [FirebirdRepairBase](https://github.com/formeo/FirebirdRepairBase) | Low-level Firebird database recovery (Delphi) |
+| [gobak](https://github.com/pharmacy72/gobak) | Firebird backup tool in Go |
 
-## 🛠 Other Projects
-
-| Project | Description |
-|---------|-------------|
-| [FirebirdRepairBase](https://github.com/formeo/FirebirdRepairBase) | Low-level Firebird database recovery tool (Delphi) |
-| [gobak](https://github.com/pharmacy72/gobak) | Firebird nbackup utility in Go |
-| [psi-field](https://github.com/formeo/psi-field) | Quantum mechanics thought experiment simulation |
-
-## 📊 Tech Stack
-
-```
-Go        ████████████████████  production backend
-Python    ████████████████████  ML, audio, scripting  
-Delphi    ████████░░░░░░░░░░░░  legacy systems
-```
-
-## 📫 Links
-
-- 🌐 [audiotools.dev](https://audiotools.dev)
-- 📝 [Habr](https://habr.com/ru/users/formeo/) — articles on Go, audio & ML
+📝 [Articles on Habr](https://habr.com/ru/users/formeo/) — Go, audio processing, scientific computing
